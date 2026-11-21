@@ -1,0 +1,6 @@
+{
+  "name": "Nothing Camera Pro",
+  "description": "Hardware-aware native camera diagnostics and computational photography suite built for Nothing Phone (3a).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

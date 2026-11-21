@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Nothing Camera Pro</string>
+    <string name="diagnostics_title">HARDWARE DIAGNOSTICS</string>
+    <string name="diagnostics_subtitle">CAMERA2 // CAMERAX // PHYSICAL LENS PROBE</string>
+    <string name="action_run_probe">RUN FULL PROBE</string>
+    <string name="action_rescan">RESCAN</string>
+    <string name="action_copy_md">COPY .MD</string>
+    <string name="action_export_md">EXPORT .MD</string>
+    <string name="action_grant_camera">GRANT CAMERA ACCESS</string>
+    <string name="action_retry_permission">RETRY PERMISSION</string>
+    <string name="action_open_settings">OPEN APP SETTINGS</string>
+    <string name="permission_banner_title">CAMERA PERMISSION REQUIRED FOR ACTIVE LENS PROBE</string>
+    <string name="permission_banner_body">Passive CameraCharacteristics can be read now, but testing independent physical camera opening and live zoom-ratio active lens tracking requires CAMERA permission.</string>
+    <string name="permission_denied_title">CAMERA PERMISSION DENIED</string>
+    <string name="permission_denied_body">Active hardware probing cannot open camera devices or verify zoom-level lens switching without CAMERA permission. Grant access to run the probe or open App Settings to enable Camera permission.</string>
+    <string name="probe_log_title">ACTIVE PROBE CALLBACK LOG</string>
+    <string name="tab_cameras">CAMERAS</string>
+    <string name="tab_zoom_probe">ZOOM PROBE</string>
+    <string name="tab_video_matrix">VIDEO MATRIX</string>
+    <string name="tab_markdown">REPORT .MD</string>
+    <string name="probe_running">PROBING CAMERA HARDWARE…</string>
+    <string name="copied_snackbar">Compatibility report copied to clipboard</string>
+    <string name="exported_snackbar">Compatibility report saved</string>
+    <string name="empty_cameras_title">NO CAMERAS DISCOVERED</string>
+    <string name="empty_cameras_hint">Running in an environment without camera hardware, or CameraManager returned zero IDs. Connect a Nothing Phone (3a) and tap RESCAN.</string>
+    <string name="empty_zoom_probe">Tap RUN FULL PROBE with camera permission granted to sweep 0.5x–5.0x and read LOGICAL_MULTI_CAMERA_ACTIVE_PHYSICAL_ID from live capture frames.</string>
+    <string name="camera_settings_title">CAMERA SETTINGS</string>
+    <string name="camera_gallery_title">CAPTURED MEDIA</string>
+</resources>
